@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-// import DisplayPokemon from './DisplayPokemon'
+
 
 const FetchComponent = () => {
     const [pokemon, setPokemon] = useState([])
