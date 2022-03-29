@@ -5,7 +5,6 @@ import DisplayOnLoad from './components/DisplayOnLoad';
 function App() {
   return (
     <div >
-      {/* <FetchComponent /> */}
       <DisplayOnLoad/>
     </div>
   );
