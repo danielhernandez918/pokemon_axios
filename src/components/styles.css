@@ -1,6 +1,26 @@
 .row{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: baseline;
     margin: 10px;
+}
+
+.logo {
+    display: flex;
+    width: 500px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.allPokemon {
+    margin-right: 10px;
+}
+
+.onePokemon {
+    margin-left: 10px;
+}
+
+option {
+    cursor: pointer;
 }

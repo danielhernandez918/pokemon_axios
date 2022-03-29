@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
-import FetchComponent from "./components/FetchComponent";
+import DisplayOnLoad from './components/DisplayOnLoad';
+// import FetchComponent from "./components/FetchComponent";
 
 function App() {
   return (
     <div >
-      <FetchComponent />
+      {/* <FetchComponent /> */}
+      <DisplayOnLoad/>
     </div>
   );
 }
